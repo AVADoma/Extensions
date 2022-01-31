@@ -1,0 +1,28 @@
+{
+	"short_name": "AVADoma",
+	"name": "AVADoma - Domains for IPFS, AVAX Wallet",
+	"description": "AVADoma - Domains for IPFS, AVAX Wallet, Moralis",
+	"version": "0.1",
+	"manifest_version": 3,
+	"icons": {
+		"16": "logo512.png",
+		"48": "logo512.png",
+		"128": "logo512.png"
+	},
+	"action": {
+		"default_icon": {
+			"16": "logo512.png",
+			"24": "logo512.png",
+			"32": "logo512.png",
+			"48": "logo512.png",
+			"128": "logo512.png"
+		},
+		"default_title": "AVADoma",
+		"default_popup": "index.html"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": ["tabs", "storage", "webRequest", "scripting"],
+	"host_permissions": ["<all_urls>"]
+}
