@@ -67,7 +67,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 				}, 2000)
 
 				const url =
-					'https://deep-index.moralis.io/api/v2/0x8B860047795E9A42c2E9D568867c03a22132CB4E/function?chain=avalanche%20testnet&function_name=getIPFS'
+					'https://deep-index.moralis.io/api/v2/0xdD7a57EeF66251Bc77B8cC03faBFAcC026099b65/function?chain=avalanche%20testnet&function_name=getIPFS'
 
 				const myHeaders = new Headers()
 				myHeaders.append('accept', 'application/json')
